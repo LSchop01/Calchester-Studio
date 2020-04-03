@@ -69,10 +69,11 @@ table-border { color: #FFFFFF;
 }
 
 div.gallery {
-  margin: 5px;
+  margin: 20px;
   border: 1px solid #F1F1F1;
   float: left;
-  width: 180px;
+  width: 200px;
+  background-color: #FFFFFF;
 }
 
 div.gallery:hover {
@@ -82,4 +83,23 @@ div.gallery:hover {
 div.gallery img {
   width: 100%;
   height: auto;
+}
+
+@media only screen and (max-width: 750px) {
+  .responsive {
+    width: 50%;
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
