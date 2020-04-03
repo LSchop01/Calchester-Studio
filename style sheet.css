@@ -5,7 +5,8 @@ body { background-image: linear-gradient(to
 			  top, #999999, #F1F1F1);
 	   color: #666666;
 	   font-family: Arial, Helvetica, sans-serif;
-	   padding: 20px;
+	   padding: 50px;
+	   margin: 30px;
 }
 
 header { text-align: center;
@@ -32,6 +33,12 @@ nav a:visited { color: #E0876A;
 nav a:hover { color: #FBEFCC;
 }
 
+footer a { text-decoration: none;
+}
+
+footer a:link { color: #D86641;
+}
+
 h1 { font-style: bold;
 	 color: #666666;
 	 height: 150%;
@@ -48,12 +55,12 @@ dt { color: #D86641;
 main ul { list-style-image: url;
 }
 
-
-
 footer { font-size: 75%;
 		 font-style: italic;
 		 text-align: center;
-		 background-color: #FFFFFF
+		 background-color: #FFFFFF;
+		 padding: 15px;
+		 margin: 15px;
 }
 
 #wrapper { background-color: #FFFFFF;
@@ -68,7 +75,7 @@ footer { font-size: 75%;
 table-border { color: #FFFFFF;
 }
 
-div.gallery {
+div.comicgallery {
   margin: 20px;
   border: 1px solid #F1F1F1;
   float: left;
@@ -76,11 +83,28 @@ div.gallery {
   background-color: #FFFFFF;
 }
 
-div.gallery:hover {
+div.comicgallery:hover {
   border: 1px solid #999999;
 }
 
-div.gallery img {
+div.comicgallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.homepagegallery {
+  margin: 20px;
+  border: 1px solid #F1F1F1;
+  float: left;
+  width: 475px;
+  background-color: #FFFFFF;
+}
+
+div.homepagegalleryallery:hover {
+  border: 1px solid #999999;
+}
+
+div.homepagegallery img {
   width: 100%;
   height: auto;
 }
