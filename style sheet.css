@@ -55,6 +55,13 @@ dt { color: #D86641;
 main ul { list-style-image: url;
 }
 
+table { border-width: 1px;
+			border-style: solid;
+			border-color: #D86641;
+			margin-left: auto;
+			margin-right: auto;
+}
+
 footer { font-size: 75%;
 		 font-style: italic;
 		 text-align: center;
@@ -72,12 +79,8 @@ footer { font-size: 75%;
   padding: 20px 10px;
 }
 
-table-border { color: #FFFFFF;
-}
-
 div.comicgallery {
   margin: 20px;
-  border: 1px solid #F1F1F1;
   float: left;
   width: 200px;
   background-color: #FFFFFF;
@@ -94,7 +97,6 @@ div.comicgallery img {
 
 div.homepagegallery {
   margin: 20px;
-  border: 1px solid #F1F1F1;
   float: left;
   width: 475px;
   background-color: #FFFFFF;
@@ -109,6 +111,12 @@ div.homepagegallery img {
   height: auto;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 @media only screen and (max-width: 750px) {
   .responsive {
     width: 50%;
@@ -120,10 +128,4 @@ div.homepagegallery img {
   .responsive {
     width: 100%;
   }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
 }
