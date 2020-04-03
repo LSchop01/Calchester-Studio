@@ -2,7 +2,7 @@
 }
 
 body { background-image: linear-gradient(to
-			  top, #667292, #FFFFFF);
+			  top, #999999, #F1F1F1);
 	   color: #666666;
 	   font-family: Arial, Helvetica, sans-serif;
 	   padding: 20px;
@@ -33,13 +33,14 @@ nav a:hover { color: #FBEFCC;
 }
 
 h1 { font-style: bold;
-	 color: #667292;
+	 color: #666666;
+	 height: 150%;
 }
 
-h2 { color: #8D9DB6;
+h2 { color: #666666;
 }
 
-dt { color: #667292;
+dt { color: #D86641;
 	 font-weight: bold;
 	 
 }
@@ -62,4 +63,23 @@ footer { font-size: 75%;
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 20px 10px;
+}
+
+table-border { color: #FFFFFF;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #F1F1F1;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #999999;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
 }
