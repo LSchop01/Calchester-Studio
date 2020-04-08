@@ -129,7 +129,7 @@ div.homepagegallery img {
 
 p img {
 	float: right;
-	margin: 5px;
+	margin: 15px;
 }
 
 .contact {
@@ -149,6 +149,11 @@ p img {
 	content: "";
 	display: table;
 	clear: both;
+}
+
+ @font-face {
+  font-family: "Moon Flower";
+  src: url("Moon Flower.ttf");
 }
 
 @media only screen and (max-width: 750px) {
