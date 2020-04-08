@@ -132,6 +132,19 @@ p img {
 	margin: 5px;
 }
 
+.contact {
+	text-align: center;
+	font-size: 125%;
+}
+
+.contact a {
+	text-decoration: none;
+}
+
+.contact a:link {
+	color: #D86641;
+}
+
 .clearfix:after {
 	content: "";
 	display: table;
