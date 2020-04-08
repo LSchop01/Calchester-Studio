@@ -77,9 +77,10 @@ footer { font-size: 75%;
 }
 
 div.comicgallery {
-  margin: 20px;
+  display: block;
+  margin: 5px;
   float: left;
-  width: 200px;
+  width: 325px;
   background-color: #FFFFFF;
 }
 
@@ -93,9 +94,10 @@ div.comicgallery img {
 }
 
 div.homepagegallery {
-  margin: 20px;
+  display: block;
+  margin: 5px;
   float: left;
-  width: 475px;
+  width: 325px;
   background-color: #FFFFFF;
 }
 
