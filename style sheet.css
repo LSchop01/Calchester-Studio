@@ -13,7 +13,7 @@ body {
 
 header { 
 	text-align: center;
-	font-family: "Moon Flower Bold", Helvetica, sans-serif;
+	font-family: 'Moon Flower Bold', Helvetica, sans-serif;
 	font-size: 300%;
 }
 
@@ -163,7 +163,7 @@ p img {
 
 .blurb {
 	color: #D86641;
-	font-family: "Moon Flower Bold", Arial, sans-serif;
+	font-family: 'Moon Flower Bold', Arial, sans-serif;
 	font-size: 375%;
 }
 
