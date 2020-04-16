@@ -2,6 +2,8 @@
 	box-sizing: border-box;
 }
 
+
+
 body { 
 	background-image: linear-gradient(to
 						top, #999999, #F1F1F1);
@@ -50,8 +52,7 @@ footer a:link {
 	color: #D86641;
 }
 
-h1 {
-	font-style: bold;
+h1 {font-weight: bold;
 	color: #666666;
 	height: 150%;
 }
@@ -64,7 +65,8 @@ h2 {
 dt { 
 	color: #D86641;
 	font-weight: bold;
-	 
+}
+
 }
 
 table {
@@ -90,13 +92,39 @@ table, th, td {
 tr:nth-child(even) {background-color: #f2f2f2;}
 tr:hover {background-color: #F7DDD4;}
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #D86641;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+label {
+  padding: 15px;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #D86641;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  border-size: 1px;
+  border-color: #D86641;
+  float: right;
+}
+
+form {
+	padding: 0;
+}
+
 footer {
 	font-size: 75%;
 	font-style: italic;
 	text-align: center;
 	background-color: #FFFFFF;
 	padding: 15px;
-	margin: 15px;
 }
 
 #wrapper {
@@ -148,15 +176,6 @@ p img {
 	margin: 15px;
 }
 
-.contact {
-	text-align: center;
-	font-size: 125%;
-}
-
-.contact a {
-	text-decoration: none;
-}
-
 .contact a:link {
 	color: #D86641;
 }
@@ -165,6 +184,18 @@ p img {
 	color: #D86641;
 	font-family: 'Moon Flower Bold', Arial, sans-serif;
 	font-size: 375%;
+}
+
+.formbox {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .clearfix:after {
@@ -182,15 +213,19 @@ p img {
 		 format('truetype');
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1010px) {
   .responsive {
 	width: 50%;
     margin: 20px 0;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 350px) {
   .responsive {
     width: 100%;
+  }
+   input[type=submit] {
+    width: 100%;
+    margin-top: 0;
   }
 }
