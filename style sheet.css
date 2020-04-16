@@ -213,14 +213,14 @@ p img {
 		 format('truetype');
 }
 
-@media only screen and (max-width: 1010px) {
+@media only screen and (max-width: 750px) {
   .responsive {
 	width: 50%;
     margin: 20px 0;
   }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 450px) {
   .responsive {
     width: 100%;
   }
