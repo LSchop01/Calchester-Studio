@@ -127,6 +127,25 @@ footer {
 	padding: 15px;
 }
 
+.outside a { color: #D86641;
+font-size: 175%;
+padding: 15px;
+padding-bottom: 150px;
+}
+
+.outside a { 
+	text-decoration: none;
+}
+.outside a:link {
+	color: #D86641;
+}
+.outside a:visited { 
+	color: #E0876A;
+}
+.outside a:hover { 
+	color: #FBEFCC;
+}
+
 #wrapper {
 	background-color: #FFFFFF;
 }
@@ -196,6 +215,41 @@ p img {
   content: "";
   display: table;
   clear: both;
+}
+
+#famgallery { height: 200px;
+			   position: relative;
+			   padding-bottom: 25px;
+			   margin-bottom: 25px;
+			   
+}
+	
+#famgallery.figure { position: absolute; 
+					  left: 280px;
+					  text-align: center;
+}
+	
+#famgallery ul { list-style-image: url(marker.gif);
+				  list-style-marker: none;
+}
+	
+#famgallery li { display: inline;
+				  float: left;
+			   	  padding: 15px;
+}
+	
+#famgallery.img { border: 0;
+}
+	
+#famgallery a { text-decoration: none;
+}
+	
+#famgallery span { position: absolute; left: -1000px; opacity: 0;
+					transition: opacity 1s ease-in-out;
+}
+				
+#famgallery a:hover span { position: absolute; top: -45px; left: 700px;
+                        text-align: center; opacity: 1;
 }
 
 .clearfix:after {
